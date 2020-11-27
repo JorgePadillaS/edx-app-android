@@ -41,4 +41,6 @@
   <string name="label_undo">Deshacer</string>
   <!--Label denoting an error-->
   <string name="label_error">Error</string>
+  <!-- Customer support text, using as button title for disabled user-->
+    <string name="label_customer_support">Soporte Comercial</string>
 </resources>
