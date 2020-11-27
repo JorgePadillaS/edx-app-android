@@ -526,14 +526,20 @@ Si no lo recibe en algunos minutos, asegúrese de revisar su carpeta de spam.</s
   <string name="register_with">Registrarse con</string>
   <string name="or_register_with_email">o registrarse con el correo electrónico</string>
   <!--New Logistration Launch screen text-->
-  <!--Button leading user to create account screen-->
-  <!--Button leading user to log in screen-->
-  <!--Introduction text on the launch screen-->
-  <!--Introduction text on the launch screen when courses and program enabled-->
-  <!--Search View title on the launch screen-->
-  <!--Search view leading user to Find Courses screen from the launch screen upon searching some text-->
-  <!--Search view leading user to Find Courses & Program screen from the launch screen upon searching some text-->
-  <!--Registration Screen-->
+  <!--Button leading user to create account screen--><string name="launch_register">Registrarse</string>
+  <!-- Button leading user to log in screen -->
+  <string name="launch_login">Ingresar</string>
+  <!-- Introduction text on the launch screen -->
+  <string name="launch_text">Todos los conocimientos que necesitas en tu bolsillo.</string>
+  <!-- Introduction text on the launch screen when courses and program enabled  -->
+  <string name="launch_text_courses_and_program">Todos los cursos y programas que necesitas en tu bolsillo.</string>
+  <!-- Search View title on the launch screen -->
+  <string name="launch_search_title">¿Que quieres aprender hoy?</string>
+  <!-- Search view leading user to Find Courses screen from the launch screen upon searching some text -->
+  <string name="launch_search_courses">Buscar Cursos</string>
+  <!-- Search view leading user to Find Courses & Program screen from the launch screen upon searching some text -->
+  <string name="launch_search_courses_program">Buscar Cursos y Programas</string>
+  
   <!--Button text allowing user to show hidden optional registration fields-->
   <string name="show_optional_text">Mostrar campos opcionales</string>
   <!--Button text allowing user to hide visible optional registration fields-->
