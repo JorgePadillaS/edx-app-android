@@ -6,7 +6,7 @@
   <!--Message for user who has successfully completed a certificate course-->
   <string name="course_details_earned_cert">Ha aprobado el curso.</string>
   <!--Button that opens a full view of an earned certificate-->
-  <string name="course_details_view_cert_button">Ver certificado</string>
+  <string name="course_details_view_cert_button">Ver mi certificado</string>
   <!--Course Discovery-->
   <!--Enroll Now button text-->
   <string name="enroll_now_button_text">Inscribirse ahora</string>
@@ -38,7 +38,7 @@
   <!--Description of a button that will cast/un-cast the app to a remote device-->
   <string name="media_route_menu_title">Reproducir en...</string>
   <!--Google cast Introduction title-->
-  <string name="introducing_cast_text">Presentamos Google Cast</string>
+  <string name="introducing_cast_text">Presentar Google Cast</string>
   <!--Text to describe that video is casting on the remote device-->
   <string name="remote_device_casting_message">El video se está transmitiendo a un dispositivo remoto</string>
   <!--Course Sharing-->
@@ -73,7 +73,7 @@
   <!--Hint text for password field-->
   <string name="password">Contraseña</string>
   <!--Button text allowing user to reset their password-->
-  <string name="forgot_password">¿Olvidó su contraseña?</string>
+  <string name="forgot_password">¿Olvidó su contraseña click acá?</string>
   <!--Button initiating login process after user enters credentials like username and password-->
   <string name="login">Iniciar sesión</string>
   <!--Accessible content description of sign in button on Log in screen-->
@@ -92,7 +92,7 @@
   <!--Create account agreement. Followed by list of agreement names like "End User License Agreement"-->
   <string name="by_creating_account">Al crear una cuenta, aceptas la {license} y las {tos_and_honor_code}, y permites que {platform_name} y cada miembro procesen tus datos personales de conformidad con la {privacy_policy}.</string>
   <!--Sign In agreement. Followed by list of agreement names like "End User License Agreement"-->
-  <string name="by_signing_in">Al registrarte en esta aplicación, aceptas el {license} y los {tos_and_honor_code}, y permites que {platform_name} y cada miembro procesen tus datos personales de conformidad con la {privacy_policy}.</string>
+  <string name="by_signing_in">Al registrarte en esta aplicación, aceptas la {license} y las {tos_and_honor_code}, y permites que {platform_name} y cada miembro procesen tus datos personales de conformidad con la {privacy_policy}.</string>
   <!--Label for End User License Agreement-->
   <string name="licensing_agreement">Acuerdo de Licencia de Usuario Final {platform_name}</string>
   <!--Label for Terms of Service and Honor Code-->
@@ -108,15 +108,15 @@
   <!--Button text to show user current downloads screen-->
   <string name="label_current_downloads">Ver descargas</string>
   <!--Content description for edit profile button-->
-  <string name="open_profile_button">Abrir su perfil</string>
+  <string name="open_profile_button">Abrir mi perfil</string>
   <!--Title of user's course list screen-->
   <string name="label_my_courses">Cursos</string>
   <!--Title of user's program list screen-->
   <string name="label_my_programs">Programas</string>
   <!--Title of native Find Courses Screen-->
-  <string name="label_find_courses">Encontrar cursos</string>
+  <string name="label_find_courses">Buscar cursos</string>
   <!--Title of webview based Find Courses Screen-->
-  <string name="label_discover">Exploración</string>
+  <string name="label_discover">Explorar</string>
   <!--Title of Degrees tab on Discovery screen-->
   <string name="label_degrees">Títulos</string>
   <!--Title of Find Courses tab on Main Dashboard screen-->
@@ -130,9 +130,9 @@
   <!--Logout button label-->
   <string name="logout">Salir</string>
   <!--Settings screen title-->
-  <string name="settings_txt">Opciones</string>
+  <string name="settings_txt">Configuración</string>
   <!--Settings screen version-->
-  <string name="label_version">Versión de la aplicación</string>
+  <string name="label_version">Versión de la APP</string>
   <!--Button text to show user Settings screen-->
   <string name="label_settings">Configuración</string>
   <!--Title of Account screen-->
@@ -145,7 +145,7 @@
   <!--Reset password alert dialog title-->
   <string name="title_reset_password_failed">Error al reiniciar la contraseña</string>
   <!--Label for switch controlling whether users permit downloading using cellular data or only wifi-->
-  <string name="wifi_dialog_title_help">Permitir descarga de datos móviles</string>
+  <string name="wifi_dialog_title_help">Permitir descarga con datos móviles</string>
   <!--Password reset sent succesfully alert-->
   <string name="success_dialog_message_help">Hemos enviado a su correo un mensaje con las instrucciones para restablecer su contraseña. 
 Si no lo recibe en algunos minutos, asegúrese de revisar su carpeta de spam.</string>
@@ -165,6 +165,7 @@ Si no lo recibe en algunos minutos, asegúrese de revisar su carpeta de spam.</s
   <!--Title of agreement users must accept to use the app-->
   <string name="end_user_title">Acuerdo de Licencia del Usuario</string>
   <!--Title of privacy policy users must accept to use the app-->
+  <string name="privacy_policy_title" translatable="false">@string/privacy_policy</string>
   <!--Title of terms of service & honor code users must accept to use the app-->
   <string name="terms_of_service_title">Términos de Servicio</string>
   <!--My Courses-->
@@ -207,15 +208,42 @@ Si no lo recibe en algunos minutos, asegúrese de revisar su carpeta de spam.</s
   <!--Label for course that has ended-->
   <string name="label_ended">Terminado el {date}</string>
   <!--Label for date when course is ending-->
-  <string name="label_ending">Terminando el {date}</string>
+  <string name="label_ending">Termina el {date}</string>
+  
+    <!-- Error Message when course dates are not available -->
+    <string name="course_dates_unavailable_message">Las fechas de los cursos no están disponibles actualmente.</string>
+    <!-- Message Course Dates Reset Successful -->
+    <string name="course_dates_reset_successful">Tus fechas se han cambiado correctamente.</string>
+    <!-- Message Course Dates Reset Unsuccessful -->
+    <string name="course_dates_reset_unsuccessful">No se pudieron cambiar las fechas. Inténtalo de nuevo.</string>
+    <!-- Message Course Dates Info Banner -->
+    <string name="course_dates_info_banner"><b>Hemos creado un programa sugerido para ayudarlo a mantenerse encaminado. </b>
+        Pero no se preocupe, es flexible para que pueda aprender a su propio ritmo. Si se retrasa en nuestras fechas sugeridas,
+        Podrás ajustarlos para mantenerte encaminado.</string>
+    <!-- Message Course Dates Banner Upgrade to Complete Graded -->
+    <string name="course_dates_banner_upgrade_to_graded"><b>Estás auditando este curso, </b>
+        lo que significa que no puede participar en tareas calificadas. Para completar las tareas calificadas como parte de este curso, puede actualizar hoy.</string>
+    <!-- Label Course Dates Banner Upgrade to Complete Graded Button -->
+    <string name="course_dates_banner_upgrade_to_graded_button">Actualizar ahora</string>
+    <!-- Message Course Dates Banner Upgrade to Reset -->
+    <string name="course_dates_banner_upgrade_to_reset"><b>Estás auditando este curso,</b>
+        lo que significa que no puede participar en tareas calificadas. Parece que no cumplió con algunos plazos importantes según nuestro calendario sugerido. Para completar las tareas calificadas como parte de este curso y cambiar las asignaciones vencidas al futuro, puede actualizar hoy.</string>
+    <!-- Label Course Dates Banner Upgrade to Reset Button -->
+    <string name="course_dates_banner_upgrade_to_reset_button">Actualizar para cambiar las fechas de vencimiento</string>
+    <!-- Message Course Dates Banner Reset Date -->
+    <string name="course_dates_banner_reset_date"><b>Parece que no cumplió con algunos plazos importantes según nuestro programa sugerido. </b>
+        Para mantenerse encaminado, puede actualizar este cronograma y cambiar las asignaciones vencidas al futuro. No se preocupe, no perderá nada del progreso que haya logrado cuando cambie las fechas de vencimiento.</string>
+    <!-- Label Course Dates Banner Reset Date Button -->
+    <string name="course_dates_banner_reset_date_button">Cambiar fechas de vencimiento</string>
+
   <!--Label for date when course is expiring in a specific time frame like in 2 days-->
-  <string name="label_expires">El acceso a los cursos caduca en {date}</string>
+  <string name="label_expires">El acceso a los cursos termina en {date}</string>
   <!--Label for date when course is expiring on a specific date like on December 5-->
-  <string name="label_expires_on">El acceso a los cursos caduca el {date}</string>
+  <string name="label_expires_on">El acceso a los cursos termina en {date}</string>
   <!--Label for date when course expired a specific time ago like 2 days ago-->
-  <string name="label_expired">El acceso a los cursos caducó hace {date}</string>
+  <string name="label_expired">El acceso a los cursos terminó hace {date}</string>
   <!--Label for date when course expired on a specific date like on November 5-->
-  <string name="label_expired_on">El acceso a los cursos caducó el {date}</string>
+  <string name="label_expired_on">El acceso a los cursos terminó el {date}</string>
   <!--Course Details-->
   <!--Accessible content description of label for course content-->
   <string name="course_content">Contenido del curso</string>
@@ -238,9 +266,9 @@ Si no lo recibe en algunos minutos, asegúrese de revisar su carpeta de spam.</s
   <!--Title of the screen where user can delete videos-->
   <string name="delete_videos_title">Borrar Videos</string>
   <!--Label for a course item's due date for same day-->
-  <string name="due_date_today">debido hoy a las {due_date}</string>
+  <string name="due_date_today">vence  hoy a las {due_date}</string>
   <!--Label for a course item's due date-->
-  <string name="due_date_past_future">debido {due_date}</string>
+  <string name="due_date_past_future">vence  {due_date}</string>
   <!--Upgrade banner's description which appears on course outline screen.-->
   <string name="upgrade_banner_description">Completa las evaluaciones desde cualquier lugar para obtener un certificado.</string>
   <!--Title upgrade to verified today course outline footer-->
@@ -267,6 +295,7 @@ Si no lo recibe en algunos minutos, asegúrese de revisar su carpeta de spam.</s
   <!--Label for creating a new post-->
   <string name="discussion_post_create_new_post">Crear una nueva entrada</string>
   <!--Label for creating a new comment-->
+  <string name="discussion_post_create_new_comment" translatable="false">@string/discussion_add_comment_title</string>
   <!--Discussion posts filter options-->
   <!--Discussion posts filter for all posts-->
   <string name="discussion_posts_filter_all_posts">Todas las publicaciones</string>
@@ -280,7 +309,7 @@ Si no lo recibe en algunos minutos, asegúrese de revisar su carpeta de spam.</s
   <!--Discussion posts sort by most activity-->
   <string name="discussion_posts_sort_most_activity">Mayor actividad</string>
   <!--Discussion posts sort by most votes-->
-  <string name="discussion_posts_sort_most_votes">Más votos</string>
+  <string name="discussion_posts_sort_most_votes">Más votados</string>
   <!--Label for the visibility of a discussion post that is only visible to cohort-->
   <string name="discussion_post_visibility_cohort">Esta publicación solo es visible para {cohort}.</string>
   <!--Label for the visibility of a discussion post that is visible to everyone-->
@@ -303,6 +332,7 @@ Si no lo recibe en algunos minutos, asegúrese de revisar su carpeta de spam.</s
   <!--Label for question type discussions that are unanswered-->
   <string name="course_discussion_unanswered_title">Pregunta sin respuestas</string>
   <!--Label for adding a discussion response-->
+  <string name="discussion_responses_add_response_button" translatable="false">@string/discussion_add_response_title</string>
   <!--Label for number of discussion responses-->
   <plurals name="number_responses_or_comments_responses_label">
     <item quantity="one">%s respuesta</item>
@@ -314,6 +344,7 @@ Si no lo recibe en algunos minutos, asegúrese de revisar su carpeta de spam.</s
     <item quantity="other">%s comentarios</item>
   </plurals>
   <!--Label for adding a new comment-->
+    <string name="number_responses_or_comments_add_comment_label" translatable="false">@string/discussion_add_comment_title</string>
   <!--Label for indicating that a response is an answer-->
   <string name="discussion_responses_answer">Responder</string>
   <!--Label for indicating that a response is endorsed-->
@@ -345,6 +376,7 @@ Si no lo recibe en algunos minutos, asegúrese de revisar su carpeta de spam.</s
   <!--Add comment button description for accessibility in adding a new comment-->
   <string name="discussion_add_comment_button_description">Botón de Añadir comentario</string>
   <!--Add your comment placeholder in adding a new comment-->
+  <string name="discussion_add_comment_hint" translatable="false">@string/discussion_add_comment_title</string>
   <!--Title in adding a new response-->
   <string name="discussion_add_response_title">Añadir respuesta</string>
   <!--Title when adding a new response is disabled-->
@@ -367,7 +399,9 @@ Si no lo recibe en algunos minutos, asegúrese de revisar su carpeta de spam.</s
   <!--Add post button content description for accessibility in adding a new post-->
   <string name="discussion_add_question_button_description">Botón de Publicar pregunta</string>
   <!--Add your post placeholder in adding a new post-->
-  <!--Add your post placeholder in adding a new post-->
+    <string name="discussion_body_hint_discussion" translatable="false">@string/discussion_title</string>
+    <!-- Add your post placeholder in adding a new post -->
+    <string name="discussion_body_hint_question" translatable="false">@string/discussion_question</string>
   <!--Question text in adding a new post-->
   <string name="discussion_question">Pregunta</string>
   <!--Assessment-->
@@ -376,9 +410,9 @@ Si no lo recibe en algunos minutos, asegúrese de revisar su carpeta de spam.</s
   <!--Label showing previous unit in a sub-section on assessment navigation bar-->
   <string name="assessment_previous">Anterior</string>
   <!--Label showing assessment only available on website-->
-  <string name="assessment_not_available">Este componente interactivo no está disponible aún en versión móvil.</string>
+  <string name="assessment_not_available">Este componente interactivo no está disponible aún en la versión móvil.</string>
   <!--Label showing assessment only available on website-->
-  <string name="assessment_explore_on_web">Explorar otras partes de este curso o ver este contenido en la web.</string>
+  <string name="assessment_explore_on_web">Explorar otras partes de este curso o puedes ver este contenido en la web.</string>
   <!--Button to show wiew on web for assessment-->
   <string name="assessment_view_on_web">Ver en la web</string>
   <!--Label to show empty assessment-->
@@ -399,6 +433,12 @@ Si no lo recibe en algunos minutos, asegúrese de revisar su carpeta de spam.</s
   <string name="assessment_needed_updating_youtube">Debes actualizar la aplicación de YouTube para ver este video.</string>
   <!--Label for button to update youtube app-->
   <string name="assessment_update_youtube">Actualizar YouTube</string>
+  
+    <!-- Message on shift course dates successfully on Assessment -->
+    <string name="assessment_shift_dates_success_msg">Sus fechas de vencimiento se han cambiado con éxito para ayudarlo a mantenerse encaminado.</string>
+    <!-- Label to view shifted dates -->
+    <string name="assessment_view_all_dates"><u>Ver todas las fechas</u></string>
+
   <!--Video List-->
   <!--Title of video download screen-->
   <string name="title_download">Descargas</string>
@@ -521,12 +561,13 @@ Si no lo recibe en algunos minutos, asegúrese de revisar su carpeta de spam.</s
   <!--Prompt leading user to sign in screen-->
   <string name="already_have_an_account">¿Ya tiene una cuenta? Inicie sesión</string>
   <!--Prompt leading user to create account screen-->
-  <string name="sign_up_and_learn">Registrese y comience a aprender</string>
+  <string name="sign_up_and_learn">Inicie sesión y comience a aprender</string>
   <!--In Register screen-->
   <string name="register_with">Registrarse con</string>
   <string name="or_register_with_email">o registrarse con el correo electrónico</string>
   <!--New Logistration Launch screen text-->
-  <!--Button leading user to create account screen--><string name="launch_register">Registrarse</string>
+  <!--Button leading user to create account screen-->
+  <string name="launch_register">Registrarse</string>
   <!-- Button leading user to log in screen -->
   <string name="launch_login">Ingresar</string>
   <!-- Introduction text on the launch screen -->
@@ -539,7 +580,8 @@ Si no lo recibe en algunos minutos, asegúrese de revisar su carpeta de spam.</s
   <string name="launch_search_courses">Buscar Cursos</string>
   <!-- Search view leading user to Find Courses & Program screen from the launch screen upon searching some text -->
   <string name="launch_search_courses_program">Buscar Cursos y Programas</string>
-  
+
+  <!--Registration Screen-->
   <!--Button text allowing user to show hidden optional registration fields-->
   <string name="show_optional_text">Mostrar campos opcionales</string>
   <!--Button text allowing user to hide visible optional registration fields-->
@@ -574,6 +616,8 @@ Si no lo recibe en algunos minutos, asegúrese de revisar su carpeta de spam.</s
   <string name="android">Android</string>
   <!--Email subject line when user attempts to submit feedback about the app-->
   <string name="email_subject">Comentarios de usuarios</string>
+  <!--  Email subject line when user account is disabled to submit feedback about the app -->
+  <string name="email_subject_account_disabled">Cuenta Desabilitada</string>
   <!--Email subject line when a user attempts to submit a review using the app review workflow-->
   <string name="review_email_subject">Crítica del cliente</string>
   <!--Submit Feedback app version text-->
