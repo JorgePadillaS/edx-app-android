@@ -92,11 +92,11 @@
   <!--Create account agreement. Followed by list of agreement names like "End User License Agreement"-->
   <string name="by_creating_account">Al crear una cuenta, aceptas la {license} y las {tos_and_honor_code}, y permites que {platform_name} y cada miembro procesen tus datos personales de conformidad con la {privacy_policy}.</string>
   <!--Sign In agreement. Followed by list of agreement names like "End User License Agreement"-->
-  <string name="by_signing_in">Al registrarte en esta aplicación, aceptas la {license} y las {tos_and_honor_code}, y permites que {platform_name} y cada miembro procesen tus datos personales de conformidad con la {privacy_policy}.</string>
+  <string name="by_signing_in">Al registrarte en esta aplicación, aceptas el {license} y los {tos_and_honor_code}, y permites que {platform_name} y cada miembro procesen tus datos personales de conformidad con la {privacy_policy}.</string>
   <!--Label for End User License Agreement-->
-  <string name="licensing_agreement">{platform_name} Acuerdo de Licencia de Usuario Final</string>
+  <string name="licensing_agreement">Acuerdo de Licencia de Usuario Final {platform_name}</string>
   <!--Label for Terms of Service and Honor Code-->
-  <string name="tos_and_honor_code">{platform_name} Términos de Servicio y Código de Honor</string>
+  <string name="tos_and_honor_code">Términos de Servicio y Código de Honor {platform_name}</string>
   <!--Label for Privacy Policy-->
   <string name="privacy_policy">Política de Privacidad</string>
   <string name="login_title">iniciar sesión</string>
@@ -521,7 +521,7 @@ Si no lo recibe en algunos minutos, asegúrese de revisar su carpeta de spam.</s
   <!--Prompt leading user to sign in screen-->
   <string name="already_have_an_account">¿Ya tiene una cuenta? Inicie sesión</string>
   <!--Prompt leading user to create account screen-->
-  <string name="sign_up_and_learn">Inicie sesión y comience a aprender</string>
+  <string name="sign_up_and_learn">Registrese y comience a aprender</string>
   <!--In Register screen-->
   <string name="register_with">Registrarse con</string>
   <string name="or_register_with_email">o registrarse con el correo electrónico</string>
